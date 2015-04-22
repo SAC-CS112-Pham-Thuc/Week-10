@@ -1,0 +1,9 @@
+
+public class RandomNumber 
+{
+	public int GetANumber( int low, int high)
+	{
+		int computerNumber = (low + (int)( Math.random()* high));
+		return computerNumber;
+	}
+}
